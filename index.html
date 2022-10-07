@@ -43,7 +43,7 @@
    </div>
 
 
-   <button id="btn" class="button">Завершить заказ</button>
+   <!--button id="btn" class="button">Завершить заказ</button-->
    <input type="hidden" value="" id="cart">
 </body>
 
@@ -61,14 +61,14 @@
 
    let btn = document.getElementById("btn"); //получаем кнопку скрыть/показать 
 
-   btn.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
-      if (tg.MainButton.isVisible){ //если кнопка показана 
-         tg.MainButton.hide() //скрываем кнопку 
-      }
-      else{ //иначе
-         tg.MainButton.show() //показываем 
-      }
-   });
+   // btn.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
+   //    if (tg.MainButton.isVisible){ //если кнопка показана 
+   //       tg.MainButton.hide() //скрываем кнопку 
+   //    }
+   //    else{ //иначе
+   //       tg.MainButton.show() //показываем 
+   //    }
+   // });
 
    tg.MainButton.show()
 
